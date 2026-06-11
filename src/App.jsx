@@ -19,7 +19,7 @@ function App() {
   const [lang, setLang] = useState("ml");
   const t = content[lang];
 
-  const siteUrl = "https://yourdomain.com";
+  const siteUrl = "https://www.cscthalappuzha.in";
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
@@ -46,19 +46,24 @@ function App() {
     <>
       <Helmet>
         <title>
-          CSC Thalappuzha | PAN Card, Aadhaar, Passport, Kerala PSC &
-          Government Services
-        </title>
+         CSC Thalappuzha | PAN Card, Aadhaar, Passport, Kerala PSC &
+         Government Services
+      </title>
 
-        <meta
-          name="description"
-          content="CSC Thalappuzha provides PAN Card, Aadhaar Update, Passport, Income Certificate, Birth Certificate, Kerala PSC, Banking, Insurance, ABHA Card, Ticket Booking, GST Registration and Government Services in Wayanad."
-        />
+      <meta
+         name="google-site-verification"
+         content="rM9fhv29A2f0ytqH2QHEJ7Hhktukue1rAirhT0xt0eo"
+      />
 
-        <meta
-          name="keywords"
-          content="CSC Thalappuzha, CSC Wayanad, Online Service Center Wayanad, PAN Card Service Wayanad, Aadhaar Update Thalappuzha, Passport Service Wayanad, Kerala PSC Application Wayanad, Income Certificate Wayanad, Birth Certificate Wayanad, Akshaya Centre Thalappuzha, Government Services Wayanad, E Seva Centre Wayanad, ABHA Card Registration, Ticket Booking Wayanad, GST Registration Wayanad"
-        />
+      <meta
+         name="description"
+         content="CSC Thalappuzha provides PAN Card, Aadhaar Update, Passport, Income Certificate, Birth Certificate, Kerala PSC, Banking, Insurance, ABHA Card, Ticket Booking, GST Registration and Government Services in Wayanad."
+      />
+
+  <meta
+    name="keywords"
+    content="CSC Thalappuzha, CSC Wayanad, Online Service Center Wayanad, PAN Card Service Wayanad, Aadhaar Update Thalappuzha, Passport Service Wayanad, Kerala PSC Application Wayanad, Income Certificate Wayanad, Birth Certificate Wayanad, Akshaya Centre Thalappuzha, Government Services Wayanad, E Seva Centre Wayanad, ABHA Card Registration, Ticket Booking Wayanad, GST Registration Wayanad"
+  />
 
         <meta name="author" content="CSC Thalappuzha" />
         <meta name="robots" content="index, follow" />
