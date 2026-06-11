@@ -1,48 +1,60 @@
 @import "tailwindcss";
 
+/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
+/* Base reset + mobile-safe overflow fix */
+html,
 body {
   margin: 0;
-  font-family: "Inter", system-ui, sans-serif;
-  background: #f8fbff;
-  color: #07142f;
+  padding: 0;
   overflow-x: hidden;
 }
 
-/* Kerala Services Moving Banner */
+/* Global body styling */
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: #f8fbff;
+  color: #07142f;
+
+  /* Better text rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Make images responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Remove default button/input weird spacing */
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+/* Optional: better focus visibility (accessibility boost) */
+:focus {
+  outline: none;
+}
+
+/* Optional smooth animation performance */
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+/* Marquee animation used in Hero */
 @keyframes marquee {
   0% {
     transform: translateX(100%);
   }
-
   100% {
     transform: translateX(-100%);
   }
-}
-
-/* Smooth Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #eef6ff;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #3b82f6;
-  border-radius: 999px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #2563eb;
-}
-
-/* Selection Color */
-::selection {
-  background: #2563eb;
-  color: white;
 }
