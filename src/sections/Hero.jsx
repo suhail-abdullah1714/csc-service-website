@@ -109,6 +109,13 @@ function Hero({ t }) {
                 {t.hero.call}
               </a>
             </div>
+
+            {/* Kerala Services Banner */}
+            <div className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-r from-[#06142f] via-blue-700 to-[#06142f] py-3 shadow-lg border border-blue-500">
+              <div className="whitespace-nowrap animate-[marquee_18s_linear_infinite] text-white font-black text-sm sm:text-base">
+                ⭐ ALL KERALA GOVERNMENT & ONLINE SERVICES AVAILABLE AT CSC THALAPPUZHA & CHUNGAM ⭐ ALL KERALA GOVERNMENT & ONLINE SERVICES AVAILABLE AT CSC THALAPPUZHA & CHUNGAM ⭐
+              </div>
+            </div>
           </div>
 
           {/* Right Image */}

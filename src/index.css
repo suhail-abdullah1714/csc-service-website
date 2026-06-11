@@ -9,4 +9,40 @@ body {
   font-family: "Inter", system-ui, sans-serif;
   background: #f8fbff;
   color: #07142f;
+  overflow-x: hidden;
+}
+
+/* Kerala Services Moving Banner */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Smooth Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eef6ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Selection Color */
+::selection {
+  background: #2563eb;
+  color: white;
 }
