@@ -40,13 +40,33 @@ function Hero({ t }) {
               {t.hero.desc}
             </p>
 
-            {/* FEATURES */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-7">
+            {/* FEATURES (2x2 GRID FIX) */}
+            <div className="grid grid-cols-2 gap-3 mt-7">
               {[
-                [<FaBolt />, "Fast & Reliable", "Service", "bg-blue-100 text-blue-700"],
-                [<FaShieldAlt />, "Secure", "Your Data", "bg-blue-100 text-blue-700"],
-                [<FaHeadset />, "Expert Support", "Always Here", "bg-blue-100 text-blue-700"],
-                [<FaRupeeSign />, "Affordable", "Best Prices", "bg-green-100 text-green-700"],
+                [
+                  <FaBolt />,
+                  "Fast & Reliable",
+                  "Service",
+                  "bg-blue-100 text-blue-700",
+                ],
+                [
+                  <FaShieldAlt />,
+                  "Secure",
+                  "Your Data",
+                  "bg-blue-100 text-blue-700",
+                ],
+                [
+                  <FaHeadset />,
+                  "Expert Support",
+                  "Always Here",
+                  "bg-blue-100 text-blue-700",
+                ],
+                [
+                  <FaRupeeSign />,
+                  "Affordable",
+                  "Best Prices",
+                  "bg-green-100 text-green-700",
+                ],
               ].map((item, i) => (
                 <div
                   key={i}
@@ -89,7 +109,7 @@ function Hero({ t }) {
               </a>
             </div>
 
-            {/* MARQUEE (FIXED FOR MOBILE) */}
+            {/* MARQUEE */}
             <div className="mt-8 overflow-hidden rounded-xl bg-gradient-to-r from-[#06142f] via-blue-700 to-[#06142f] py-2">
               <div className="whitespace-nowrap animate-[marquee_18s_linear_infinite] text-white font-bold text-xs sm:text-sm px-2">
                 ⭐ ALL KERALA GOVERNMENT & ONLINE SERVICES AVAILABLE AT CSC THALAPPUZHA & CHUNGAM ⭐
@@ -97,7 +117,7 @@ function Hero({ t }) {
             </div>
           </div>
 
-          {/* RIGHT IMAGE + STATS */}
+          {/* RIGHT SIDE */}
           <div className="flex flex-col gap-6">
 
             {/* IMAGE */}
@@ -109,22 +129,22 @@ function Hero({ t }) {
               />
             </div>
 
-            {/* STATS (NO ABSOLUTE → FIXED FOR MOBILE) */}
+            {/* STATS */}
             <div className="bg-[#06142f] text-white rounded-2xl shadow-2xl p-4 sm:p-6 grid grid-cols-2 lg:grid-cols-4 gap-4 text-center">
 
-              <div className="border-r border-white/20">
+              <div>
                 <FaSmile className="mx-auto text-xl sm:text-2xl text-blue-300 mb-2" />
                 <h3 className="text-xl sm:text-3xl font-black">5000+</h3>
                 <p className="text-xs text-slate-300">Happy Customers</p>
               </div>
 
-              <div className="border-r lg:border-r border-white/20">
+              <div>
                 <HiDocumentText className="mx-auto text-xl sm:text-2xl text-blue-300 mb-2" />
                 <h3 className="text-xl sm:text-3xl font-black">100+</h3>
                 <p className="text-xs text-slate-300">Services</p>
               </div>
 
-              <div className="border-r border-white/20">
+              <div>
                 <HiBadgeCheck className="mx-auto text-xl sm:text-2xl text-green-300 mb-2" />
                 <h3 className="text-xl sm:text-3xl font-black">10+</h3>
                 <p className="text-xs text-slate-300">Years Experience</p>
