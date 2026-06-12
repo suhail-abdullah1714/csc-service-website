@@ -21,7 +21,6 @@ function Hero({ t }) {
 
       <div className="relative max-w-[1640px] mx-auto px-4 sm:px-6 lg:px-24 pt-10 pb-16">
         <div className="grid grid-cols-1 lg:grid-cols-[0.92fr_1.08fr] gap-10 lg:gap-16 items-center">
-
           {/* LEFT CONTENT */}
           <div>
             <span className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-xs sm:text-sm font-black mb-5">
@@ -40,7 +39,7 @@ function Hero({ t }) {
               {t.hero.desc}
             </p>
 
-            {/* FEATURES (2x2 GRID FIX) */}
+            {/* FEATURES */}
             <div className="grid grid-cols-2 gap-3 mt-7">
               {[
                 [
@@ -70,19 +69,22 @@ function Hero({ t }) {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="bg-white rounded-xl p-4 shadow-md border border-slate-100 flex items-center gap-3"
+                  className="bg-white rounded-xl p-3 sm:p-4 shadow-[0_8px_24px_rgba(15,23,42,0.09)] border border-slate-100 flex items-center gap-2 sm:gap-3"
                 >
                   <div
-                    className={`w-10 h-10 rounded-full flex items-center justify-center text-lg ${item[3]}`}
+                    className={`w-9 h-9 sm:w-11 sm:h-11 rounded-full flex items-center justify-center text-base sm:text-lg ${item[3]}`}
                   >
                     {item[0]}
                   </div>
 
                   <div>
-                    <h4 className="text-sm font-black text-[#07142f] leading-tight">
+                    <h4 className="text-xs sm:text-[13px] font-black text-[#07142f] leading-tight">
                       {item[1]}
                     </h4>
-                    <p className="text-xs text-slate-500">{item[2]}</p>
+
+                    <p className="text-[11px] sm:text-[12px] text-slate-500">
+                      {item[2]}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -109,17 +111,18 @@ function Hero({ t }) {
               </a>
             </div>
 
-            {/* MARQUEE */}
-            <div className="mt-8 overflow-hidden rounded-xl bg-gradient-to-r from-[#06142f] via-blue-700 to-[#06142f] py-2">
-              <div className="whitespace-nowrap animate-[marquee_18s_linear_infinite] text-white font-bold text-xs sm:text-sm px-2">
+            {/* MOVING SERVICES BANNER */}
+            <div className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-r from-[#06142f] via-blue-700 to-[#06142f] shadow-lg border border-blue-500">
+              <div className="marquee py-3 text-white font-black text-xs sm:text-sm">
                 ⭐ ALL KERALA GOVERNMENT & ONLINE SERVICES AVAILABLE AT CSC THALAPPUZHA & CHUNGAM ⭐
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                
               </div>
             </div>
           </div>
 
           {/* RIGHT SIDE */}
           <div className="flex flex-col gap-6">
-
             {/* IMAGE */}
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
@@ -131,7 +134,6 @@ function Hero({ t }) {
 
             {/* STATS */}
             <div className="bg-[#06142f] text-white rounded-2xl shadow-2xl p-4 sm:p-6 grid grid-cols-2 lg:grid-cols-4 gap-4 text-center">
-
               <div>
                 <FaSmile className="mx-auto text-xl sm:text-2xl text-blue-300 mb-2" />
                 <h3 className="text-xl sm:text-3xl font-black">5000+</h3>
@@ -155,10 +157,8 @@ function Hero({ t }) {
                 <h3 className="text-xl sm:text-3xl font-black">100%</h3>
                 <p className="text-xs text-slate-300">Trusted Service</p>
               </div>
-
             </div>
           </div>
-
         </div>
       </div>
     </section>

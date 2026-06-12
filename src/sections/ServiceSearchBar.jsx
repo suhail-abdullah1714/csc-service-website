@@ -636,6 +636,140 @@ const allServices = [
   { name: "Vehicle Mike Permission", category: "Permission Services", docs: ["Applicant Aadhaar", "RC Book", "Insurance"], time: "1 - 7 Days", keywords: ["campaign vehicle mic announcer permission loud speaker installation permissions traffic police compliance tracking"] },
   { name: "Event Permission", category: "Permission Services", docs: ["Applicant Aadhaar", "Event Details"], time: "1 - 7 Days", keywords: ["public gathering clearance stage ground booking permissions festival management authority verification profile records"] },
   { name: "Procession Permission", category: "Permission Services", docs: ["Applicant Aadhaar", "Route Details"], time: "1 - 7 Days", keywords: ["rally tracking route blueprint permit parade coordination traffic redirection police approval forms dashboard"] },
+   // NEW LOAN SERVICES
+{
+  name: "Business Loan Assistance",
+  category: "Loan Services",
+  docs: ["Aadhaar Card", "PAN Card", "Business Documents", "Bank Statement"],
+  time: "Depends on Bank",
+  keywords: ["business loan", "msme loan", "working capital loan", "startup loan"]
+},
+{
+  name: "Vehicle Loan Assistance",
+  category: "Loan Services",
+  docs: ["Aadhaar Card", "PAN Card", "Income Proof"],
+  time: "Depends on Bank",
+  keywords: ["car loan", "auto loan", "vehicle finance", "four wheeler loan"]
+},
+{
+  name: "Two Wheeler Loan Assistance",
+  category: "Loan Services",
+  docs: ["Aadhaar Card", "PAN Card", "Income Proof"],
+  time: "Depends on Bank",
+  keywords: ["bike loan", "scooter loan", "two wheeler finance"]
+},
+{
+  name: "Agriculture Loan Assistance",
+  category: "Loan Services",
+  docs: ["Aadhaar Card", "Land Documents", "Bank Passbook"],
+  time: "Depends on Bank",
+  keywords: ["farm loan", "agriculture finance", "kisan loan", "crop loan"]
+},
+{
+  name: "Mudra Loan Assistance",
+  category: "Loan Services",
+  docs: ["Aadhaar Card", "PAN Card", "Business Details"],
+  time: "Depends on Bank",
+  keywords: ["mudra loan", "pm mudra", "small business finance"]
+},
+{
+  name: "PMEGP Loan Assistance",
+  category: "Loan Services",
+  docs: ["Aadhaar Card", "Project Report", "Business Proposal"],
+  time: "Depends on Verification",
+  keywords: ["pmegp", "employment generation programme", "government business loan"]
+},
+{
+  name: "Loan Project Report Preparation",
+  category: "Loan Services",
+  docs: ["Business Details", "Project Information"],
+  time: "1 - 3 Days",
+  keywords: ["loan project", "project report", "bank project", "dpr", "business proposal"]
+},
+{
+  name: "Loan Eligibility Check",
+  category: "Loan Services",
+  docs: ["Income Proof", "Bank Statement"],
+  time: "Same Day",
+  keywords: ["loan eligibility", "loan check", "loan approval chance"]
+},
+{
+  name: "Credit Score Guidance",
+  category: "Loan Services",
+  docs: ["PAN Card", "Mobile Number"],
+  time: "Same Day",
+  keywords: ["cibil score", "credit score", "loan score"]
+},
+
+// BUSINESS SERVICES
+{
+  name: "Legal Metrology Certificate",
+  category: "Business Services",
+  docs: ["Business Proof", "Aadhaar Card", "Shop Details"],
+  time: "Depends on Department",
+  keywords: ["weighing machine license", "legal metrology", "weight and measure certificate"]
+},
+{
+  name: "Pollution Control Board Certificate",
+  category: "Business Services",
+  docs: ["Business Details", "Location Details"],
+  time: "Depends on Department",
+  keywords: ["pcb certificate", "pollution board", "consent certificate", "environment clearance"]
+},
+{
+  name: "Income Tax Return (IT Return) Filing",
+  category: "Business Services",
+  docs: ["PAN Card", "Aadhaar Card", "Income Documents"],
+  time: "1 - 3 Days",
+  keywords: ["itr filing", "income tax return", "tax filing", "it return"]
+},
+
+// EMPLOYMENT SERVICES
+{
+  name: "RRB Railway Recruitment Application",
+  category: "Employment Services",
+  docs: ["Aadhaar Card", "Photo", "Qualification Certificates"],
+  time: "Same Day",
+  keywords: ["rrb", "railway jobs", "railway recruitment", "ntpc", "group d"]
+},
+{
+  name: "Indian Army Recruitment Application",
+  category: "Employment Services",
+  docs: ["Aadhaar Card", "Photo", "Qualification Certificates"],
+  time: "Same Day",
+  keywords: ["army bharti", "indian army", "agniveer", "army recruitment"]
+},
+{
+  name: "Competitive Exam Registration",
+  category: "Employment Services",
+  docs: ["Aadhaar Card", "Photo", "Qualification Certificates"],
+  time: "Same Day",
+  keywords: [
+    "ssc",
+    "upsc",
+    "bank exam",
+    "railway exam",
+    "entrance exam",
+    "competitive exam registration"
+  ]
+},
+
+// GOVERNMENT / WELFARE SERVICES
+{
+  name: "Kudumbashree Loan Application",
+  category: "Government Services",
+  docs: ["Aadhaar Card", "Bank Passbook", "Group Details"],
+  time: "Depends on Verification",
+  keywords: ["kudumbashree loan", "kudumbashree finance", "women self help group loan"]
+},
+{
+  name: "KSWDC Loan Application",
+  category: "Government Services",
+  docs: ["Aadhaar Card", "Income Certificate", "Bank Details"],
+  time: "Depends on Verification",
+  keywords: ["kswdc loan", "kerala women development corporation", "women loan"]
+},
+
 ];
 
 function ServiceSearchBar() {

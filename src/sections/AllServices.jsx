@@ -19,6 +19,7 @@ const serviceCategories = [
       "Passport Renewal",
     ],
   },
+
   {
     title: "Certificate Services",
     services: [
@@ -35,6 +36,7 @@ const serviceCategories = [
       "Legal Heir Certificate",
     ],
   },
+
   {
     title: "Vehicle & RTO Services",
     services: [
@@ -45,8 +47,10 @@ const serviceCategories = [
       "RC Transfer",
       "Vehicle Tax Payment",
       "Challan Payment",
+      "Pollution Certificate Assistance",
     ],
   },
+
   {
     title: "Banking Services",
     services: [
@@ -58,6 +62,32 @@ const serviceCategories = [
       "Pension Services",
     ],
   },
+
+  {
+    title: "Loan Services",
+    services: [
+      "Personal Loan Assistance",
+      "Gold Loan Assistance",
+      "Home Loan Assistance",
+      "Education Loan Assistance",
+      "Business Loan Assistance",
+      "Vehicle Loan Assistance",
+      "Two Wheeler Loan Assistance",
+      "Agriculture Loan Assistance",
+      "Mudra Loan Assistance",
+      "PMEGP Loan Assistance",
+      "KSWDC Loan Application",
+      "KSWDC Loan Renewal",
+      "Kudumbashree Loan Assistance",
+      "Loan Project Report Preparation",
+      "Loan Eligibility Check",
+      "Loan Documentation Support",
+      "Loan Application Submission",
+      "EMI Calculation Assistance",
+      "Credit Score Guidance",
+    ],
+  },
+
   {
     title: "Insurance Services",
     services: [
@@ -70,6 +100,7 @@ const serviceCategories = [
       "Travel Insurance",
     ],
   },
+
   {
     title: "Utility Bill Services",
     services: [
@@ -81,6 +112,7 @@ const serviceCategories = [
       "FASTag Recharge",
     ],
   },
+
   {
     title: "Education Services",
     services: [
@@ -91,6 +123,7 @@ const serviceCategories = [
       "Student Loan Assistance",
     ],
   },
+
   {
     title: "Government Services",
     services: [
@@ -101,6 +134,7 @@ const serviceCategories = [
       "E-Shram Card",
       "Labour Card",
       "Ayushman Bharat",
+      "ABHA Card Registration",
       "Old Age Pension",
       "Widow Pension",
       "Disability Pension",
@@ -109,16 +143,24 @@ const serviceCategories = [
       "PM Shram Yogi Maan-dhan (PM-SYM)",
     ],
   },
+
   {
     title: "Business Services",
     services: [
       "GST Registration",
       "GST Filing Assistance",
+      "Income Tax Return (IT Return) Filing",
       "UDYAM Registration",
       "MSME Registration",
       "Food Safety Registration (FSSAI)",
+      "Legal Metrology Registration",
+      "Legal Metrology Renewal",
+      "Pollution Control Board Certificate",
+      "Pollution Control Board Consent Renewal",
+      "Trade License Assistance",
     ],
   },
+
   {
     title: "Kerala Services",
     services: [
@@ -129,9 +171,11 @@ const serviceCategories = [
       "Nativity Certificate",
       "One and the Same Certificate",
       "KSFE Chitty / Loan Payment",
-      "Subhiksha Keralam / Agriculture Portal Registrations",
+      "Subhiksha Keralam Registration",
+      "Agriculture Portal Registrations",
     ],
   },
+
   {
     title: "Property Services",
     services: [
@@ -142,6 +186,7 @@ const serviceCategories = [
       "Panchayat Building Tax (Sanchaya)",
     ],
   },
+
   {
     title: "NRI & Travel Services",
     services: [
@@ -153,16 +198,32 @@ const serviceCategories = [
       "Police Clearance Certificate (PCC)",
       "Certificate Attestation",
       "Visa Application Assistance",
-      "KNRK Welfare ID",
+      "NORKA Welfare Registration",
     ],
   },
+
   {
-    title: "Employment & Digital Services",
+    title: "Employment & Competitive Exam Services",
     services: [
       "Employment Exchange Registration",
       "Government Job Application",
       "National Career Service Registration",
+      "Kerala PSC One Time Registration",
+      "Kerala PSC Application",
+      "RRB Application",
+      "Indian Army Recruitment Application",
+      "Indian Navy Recruitment Application",
+      "Indian Air Force Recruitment Application",
+      "SSC Application",
+      "UPSC Application",
+      "Competitive Exam Registration",
       "Resume Preparation",
+    ],
+  },
+
+  {
+    title: "Digital & Documentation Services",
+    services: [
       "Online Form Filling",
       "Document Scanning",
       "Printing Services",
@@ -172,6 +233,7 @@ const serviceCategories = [
       "PDF Conversion",
     ],
   },
+
   {
     title: "Police & Permission Services",
     services: [

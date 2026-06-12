@@ -38,23 +38,35 @@ textarea {
   font-family: inherit;
 }
 
-/* Optional: better focus visibility (accessibility boost) */
+/* Better focus handling */
 :focus {
   outline: none;
 }
 
-/* Optional smooth animation performance */
+/* Global box sizing */
 * {
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
 }
 
-/* Marquee animation used in Hero */
+/* =========================
+   HERO MARQUEE ANIMATION
+   ========================= */
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: marquee 18s linear infinite;
+  will-change: transform;
+}
+
 @keyframes marquee {
-  0% {
-    transform: translateX(100%);
+  from {
+    transform: translateX(0%);
   }
-  100% {
+
+  to {
     transform: translateX(-100%);
   }
 }
